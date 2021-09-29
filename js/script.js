@@ -32,7 +32,8 @@ ball.addEventListener("click", ()=>{
 
 const tempButtons = document.querySelectorAll(".nav-button,.slide-button");
 tempButtons.forEach((tempButton) => {
-    tempButton.addEventListener("click", function(){   
+    tempButton.addEventListener("click", function(event){
+        event.preventDefault();   
         alert("Để nút cho vui thôi chứ chưa có chức năng đâu :)");
     });
 });
@@ -46,3 +47,6 @@ leftIcons[3].style.paddingRight = "18px";
 leftIcons[3].style.paddingLeft = "18px";
 leftIcons[5].style.paddingRight = "18px";
 leftIcons[5].style.paddingLeft = "18px";
+
+const partImg = document.querySelector(".part");
+partImg.style.height = "80vh";

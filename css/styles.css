@@ -268,16 +268,61 @@ body {
     transition: 1s all ease-in-out;
 }
 
+
+/* Temp 1*/
+.list-button{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 400px;
+}
+
+.movie-choose-button{
+    text-decoration: none;
+    color: white;
+}
+
+.each-list-button{
+    display: inline-block;
+    background-color: #4dbf00;
+    padding: 10px 15px;
+    margin: 5px 7px;
+    width: 50px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.65;
+}
+
+.each-list-button:hover,
+.each-list-button:focus{
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+    cursor: url('../images/curmiku9.png'), auto;
+}
+
+.movie-choose-button:hover
+.movie-choose-button:focus{        
+    cursor: url('../images/curmiku9.png'), auto;
+}
+
+/* Temp 1*/
+
+
 .item-button:link,
 .item-button:visited {
     text-decoration: none;
     color: white;
-
+    
 }
 
 .item-button:hover{
+    transition-duration: background 0.5s;
+    opacity: 1;
     cursor: url('../images/curmiku9.png'), auto;
 }
+
+
 
 .arrow{
     font-size: 120px;
