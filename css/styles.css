@@ -301,7 +301,7 @@ body {
     cursor: url('../images/curmiku9.png'), auto;
 }
 
-.movie-choose-button:hover
+.movie-choose-button:hover,
 .movie-choose-button:focus{        
     cursor: url('../images/curmiku9.png'), auto;
 }
