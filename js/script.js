@@ -1,3 +1,15 @@
+if (window.screen.availWidth < 500) {
+    while (true) {
+        var userInput = prompt("Vào bằng máy tính đê bạn ơi. Đã nhắc rồi mà. Nhập OK để thoát. Mà nhập làm cl gì vào bằng máy tính đê!!! Nếu đang ở máy tính thì cho to cái tab ra có phải web hentai đâu mà sợ.");
+        if (userInput === "OK") {
+            alert("Nhắc rồi đấy nhớ. Giao diện web trông đỉnh cao vl thì ko thích xem. Vào bằng điện thoại trông như cl thì ráng chịu.")
+            break;
+        }
+    }
+}
+
+
+
 const arrows = document.querySelectorAll(".arrow");
 const movieLists = document.querySelectorAll(".movie-list");
 console.log("ok");
