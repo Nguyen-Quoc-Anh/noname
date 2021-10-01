@@ -15,10 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <title>Công chúa Momonoke</title>
     <script src="../js/script.js" defer></script>
-    <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js"></script>
-    <script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
-    <link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
+
 </head>
 
 <body class="movie">
@@ -62,17 +59,11 @@
     <div class="content-container">
         <div class="featured-content part"
             style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515), url('../images/movie/princess-mononoke.jpg');">
-            <h3 style="text-align:center;">
-                <video style="text-align:center;" id='hls-example' class="video-js vjs-default-skin"  width="1000" height="550" controls>
-                    <source type="application/x-mpegURL" src="https://ima21.xyz/hls/931f5049c9037992a0df6a751c25e5547ad07419/playlist.m3u8">
-                </video>
-            </h3>
+            <h2 style="text-align:center;"><iframe class="video" width="650" height="400" src="https://netime.glitch.me/api/v1/cors/https://s100.imacdn.com/vg/2016/02/578_19385.mp4?hash=7Zx3XmMfDE2Z9wUalVL_ug&expire=1633130603&title=Princess Mononoke Trailer (480p)" frameborder="0" allow="autoplay" allowfullscreen></iframe></h2>
+
         </div>
     </div>
-    <script>
-        var player = videojs('hls-example');
-        player.play();
-    </script>
+
 
 
 </body>
