@@ -331,6 +331,11 @@ body {
     margin-top: 5%;
 
 }
+.video-js {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
 
 /* Temp 2*/
 
