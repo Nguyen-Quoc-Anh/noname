@@ -277,7 +277,7 @@ body {
     overflow: hidden;
     width: 400px;
 }
-
+.season-button,
 .movie-choose-button{
     text-decoration: none;
     color: white;
@@ -294,13 +294,28 @@ body {
     opacity: 0.65;
 }
 
+.season-button-container{
+    display: inline-block;
+    background-color: #4dbf00;
+    padding: 15px 11px;
+    margin: 5px 7px;
+    width: 370px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.65;
+    font-size: 17px;
+}
+
+.season-button-container:hover,
+.season-button-container:focus,
 .each-list-button:hover,
 .each-list-button:focus{
     transition: all 0.3s ease-in-out;
     opacity: 1;
     cursor: url('../images/curmiku9.png'), auto;
 }
-
+.season-button:hover,
+.season-button:focus,
 .movie-choose-button:hover,
 .movie-choose-button:focus{        
     cursor: url('../images/curmiku9.png'), auto;
