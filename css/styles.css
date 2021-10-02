@@ -142,7 +142,6 @@ body {
 .featured-content{
     height: 60vh;
     padding: 50px;
-    background: var(--desktop-bg);
 }
 
 .featured-tittle{
@@ -490,6 +489,9 @@ html, body {
     .featured-content{
         padding: 0 20px;
         width: 100vw;
+        width: 88%;
+        background-size: contain;
+        height: auto;
     }
     .featured-tittle{
         width: 200px;
@@ -527,5 +529,11 @@ html, body {
         padding-bottom: 40px;
         margin-bottom: 0;
         height: 200px;
+    }
+    .movie-list-item-button{
+        bottom: 10px;
+    }
+    .movie-list-item-desc{
+        top: 65px;
     }
 }
