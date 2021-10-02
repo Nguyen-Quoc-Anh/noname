@@ -50,15 +50,22 @@ tempButtons.forEach((tempButton) => {
     });
 });
 
+if (window.screen.availWidth > 1024) {  
+    const leftIcons = document.querySelectorAll(".left-menu-icon");
+    leftIcons[0].style.marginTop = "20px";
+    leftIcons[0].style.paddingRight = "15px";
+    leftIcons[0].style.paddingLeft = "15px";
+    leftIcons[3].style.paddingRight = "18px";
+    leftIcons[3].style.paddingLeft = "18px";
+    leftIcons[5].style.paddingRight = "18px";
+    leftIcons[5].style.paddingLeft = "18px";
+}
 
-const leftIcons = document.querySelectorAll(".left-menu-icon");
-leftIcons[0].style.marginTop = "20px";
-leftIcons[0].style.paddingRight = "15px";
-leftIcons[0].style.paddingLeft = "15px";
-leftIcons[3].style.paddingRight = "18px";
-leftIcons[3].style.paddingLeft = "18px";
-leftIcons[5].style.paddingRight = "18px";
-leftIcons[5].style.paddingLeft = "18px";
+if (window.screen.availWidth < 400){
+    const leftIcons = document.querySelectorAll(".left-menu-icon");
+    leftIcons[2].style.paddingLeft = "7px";
+    leftIcons[2].style.paddingRight = "7px";
+}
 
 const partImg = document.querySelector(".part");
 partImg.style.height = "80vh";

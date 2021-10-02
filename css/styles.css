@@ -8,14 +8,14 @@ body {
 
 .navbar{
     width: 100%;
-    height: 60px;
+    height: 10%;
     background-color: black;
 }
 
 .navbar-container{
     display: flex;
     align-items: center;
-    padding: 0 50px;
+    padding: 0 3%;
     height: 100%;
     color: white;
     font-family: 'Work Sans', sans-serif;
@@ -142,6 +142,7 @@ body {
 .featured-content{
     height: 60vh;
     padding: 50px;
+    background: var(--desktop-bg);
 }
 
 .featured-tittle{
@@ -450,9 +451,81 @@ body {
 html, body {
     cursor: url('../images/curmiku6.png'), auto;
 }
-
-@media only screen and (max-width: 1200px){
+/*Tablet*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
     .menu-container{
         display: none;
+    }
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 46.1875em){
+    .menu-container{
+        display: none;
+    }
+    .logo{
+        font-size: 23px
+    }
+    .profile-picture{
+        width: 25px;
+        height: 25px;
+    }
+    .navbar-container {
+        padding-left: 0;
+        height: 40px;
+    }
+    .sidebar{
+        width: 30px;
+    }
+    /*Notice*/
+    .profile-text-container{
+        padding: 0;
+        margin: 0;
+        display: none;
+    }
+    .content-container{
+        margin-left: 30px;
+    }
+    .featured-content{
+        padding: 0 20px;
+        width: 100vw;
+    }
+    .featured-tittle{
+        width: 200px;
+        height: auto;
+    }
+    .left-menu-icon{
+        box-sizing: border-box;
+        font-size: 15px;
+        padding: 20px 8px;
+    }
+    .featured-desc{
+        width: 300px;
+        font-size: 13px;
+        margin: 10px 0;
+        text-align: justify;
+    }
+    .featured-button{
+        padding: 7px;
+    }
+    .featured-button-link{
+        font-size: 15px
+    }
+
+    .movie-list-title{
+        font-size: 30px;
+        padding-left: 0;
+        padding-top: 30px;
+        margin-left: 40px;
+    }
+    .movie-list{
+        padding-left: 0;
+        margin-left: 40px;
+    }
+    .movie-list{
+        padding-bottom: 40px;
+        margin-bottom: 0;
+        height: 200px;
     }
 }
