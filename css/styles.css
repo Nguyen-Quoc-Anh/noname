@@ -356,7 +356,9 @@ body {
 
 /* Temp 1*/
 
+.part{
 
+}
 
 /* Temp 2*/
 
@@ -492,6 +494,7 @@ html, body {
         width: 88%;
         background-size: contain;
         height: auto;
+        background-repeat: no-repeat;
     }
     .featured-tittle{
         width: 200px;
@@ -535,5 +538,32 @@ html, body {
     }
     .movie-list-item-desc{
         top: 65px;
+    }
+    .list-button{
+        width: 300px;
+        margin-top: 80px;
+        background-color: #333;
+        padding: 10px;
+        border: 2px solid #151515;
+        border-radius: 15px;
+    }
+    .each-list-button{
+        padding: 5px 6px;
+        margin: 5px;
+        font-size: 15px;
+    }
+    .part{
+        height: 100px;
+    }
+    .season-button-container{
+        width: 260px;
+    }
+    .season-button{
+        font-size: 15px;
+    }
+    .featured-content{
+        padding-top: 5px;
+        margin-left: 0;
+        padding-left: 10px;
     }
 }

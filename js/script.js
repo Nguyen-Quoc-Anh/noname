@@ -1,11 +1,5 @@
 if (window.screen.availWidth < 500) {
-    while (true) {
-        var userInput = prompt("Vào bằng máy tính đê bạn ơi. Đã nhắc rồi mà. Nhập 'quocanhdz' để thoát. Mà nhập làm cl gì vào bằng máy tính đê!!! Nếu đang ở máy tính thì cho to cái tab ra có phải web hentai đâu mà sợ.");
-        if (userInput === "quocanhdz") {
-            alert("Nhắc rồi đấy nhớ. Giao diện web trông đỉnh cao vl thì ko thích xem. Vào bằng điện thoại trông như cl thì ráng chịu.")
-            break;
-        }
-    }
+    alert("Vào bằng máy tính đê bạn ơi. Giao diện trên máy tính đỉnh cao vl. Mà mình cũng chưa tối ưu cho điện thoại quá tốt. Nhấn OK để tiếp tục xem.");
 }
 
 
