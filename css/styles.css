@@ -396,8 +396,14 @@ body {
     right: 0;
     color: lightgray;
     opacity: 0.5;
-    cursor: url('../images/curmiku9.png'), auto;
 }
+
+.arrow:link,
+.arrow:hover{
+    cursor: url('../images/curmiku9.png'), auto;
+    opacity: 0.7;
+}
+
 .movie{
     background-color: #151515;
 }
